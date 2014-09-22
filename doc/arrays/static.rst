@@ -1,0 +1,6 @@
+
+
+Static arrays
+=============
+
+Write me ...
