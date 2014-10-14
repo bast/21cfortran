@@ -3,4 +3,4 @@
 Hello world program
 ===================
 
-Write me ...
+.. literalinclude:: code/hello.F90

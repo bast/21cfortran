@@ -28,6 +28,7 @@ Structuring your code
    doc/structuring_code/functions.rst
    doc/structuring_code/modules.rst
    doc/structuring_code/larger_projects.rst
+   doc/structuring_code/passing_information.rst
 
 
 Input and output
@@ -77,12 +78,25 @@ What else is there
 ==================
 
 - Intrinsic functions and subroutines
-- Interoperability with other languages
-- Using math libraries
 - Kinds
-- Good practices
-- Bad practices
-- Object-oriented programming features
-- Functional programming features
+- Interoperability with other languages
+
+
+Programming style
+=================
+
+.. toctree::
+   :maxdepth: 1
+
+   doc/programming_style/bad.rst
+   doc/programming_style/fp_features.rst
+   doc/programming_style/good.rst
+   doc/programming_style/oop_features.rst
+
+
+Performance and debugging
+=========================
+
 - Optimization aspects
+- Using math libraries
 - Debugging
