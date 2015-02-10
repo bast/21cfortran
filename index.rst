@@ -1,8 +1,8 @@
 
 
-====================
-21st Century Fortran
-====================
+================================
+Modern Fortran for Modern People
+================================
 
 .. toctree::
    :maxdepth: 2
