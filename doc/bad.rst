@@ -1,7 +1,7 @@
 
 
 Bad practices
--------------
+=============
 
 
 Common blocks
@@ -26,3 +26,17 @@ Large static arrays
 
 Long subroutines
 ----------------
+
+
+Functional programming features
+-------------------------------
+
+
+Elemental functions
+-------------------
+
+
+Pure functions
+--------------
+
+

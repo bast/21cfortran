@@ -1,6 +1,0 @@
-
-
-Dynamic arrays
---------------
-
-Write me ...

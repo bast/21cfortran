@@ -1,6 +1,0 @@
-
-
-OpenMP
-------
-
-Write me ...

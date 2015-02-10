@@ -1,6 +1,0 @@
-
-
-Functions
----------
-
-Write me ...

@@ -1,5 +1,9 @@
 
 
+Working with arrays
+===================
+
+
 Static arrays
 -------------
 
@@ -14,3 +18,15 @@ to 1000 atoms:
    integer, parameter :: MAX_NUM_ATOMS = 1000
 
    real(8) :: coordinates(MAX_NUM_ATOMS, 3)
+
+
+Dynamic arrays
+--------------
+
+Write me ...
+
+
+Passing arrays to functions/subroutines
+---------------------------------------
+
+Write me ...

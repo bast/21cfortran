@@ -1,7 +1,7 @@
 
 
 Good practices
---------------
+==============
 
 
 Version control
@@ -28,3 +28,11 @@ Explicitly list all data and methods used from a module
 
 Good comments
 -------------
+
+
+Object-oriented programming features
+------------------------------------
+
+
+Private and public methods and data
+-----------------------------------
