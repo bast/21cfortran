@@ -1,1 +1,1 @@
-The source behind http://21cfortran.readthedocs.org/.
+The sources behind http://21cfortran.readthedocs.org.
