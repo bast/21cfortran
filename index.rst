@@ -13,7 +13,6 @@ Getting started
 
    doc/getting_started/before_you_start.rst
    doc/getting_started/hello.rst
-   doc/getting_started/compilation.rst
    doc/getting_started/cmake.rst
    doc/getting_started/fixed_or_free.rst
 
