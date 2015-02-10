@@ -1,8 +1,7 @@
 
 
 Static arrays
-=============
-
+-------------
 
 Static allocation means that the array size
 is known at compile time. For instance in the example

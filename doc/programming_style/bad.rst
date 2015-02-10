@@ -1,7 +1,7 @@
 
 
 Bad practices
-=============
+-------------
 
 
 Common blocks

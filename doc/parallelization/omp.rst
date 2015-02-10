@@ -1,6 +1,6 @@
 
 
 OpenMP
-======
+------
 
 Write me ...

@@ -1,7 +1,7 @@
 
 
 Good practices
-==============
+--------------
 
 
 Version control

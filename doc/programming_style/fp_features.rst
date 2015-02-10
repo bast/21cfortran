@@ -1,7 +1,7 @@
 
 
 Functional programming features
-===============================
+-------------------------------
 
 
 Elemental functions

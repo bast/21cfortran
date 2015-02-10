@@ -1,7 +1,7 @@
 
 
 Compiling a hello world program
-===============================
+-------------------------------
 
 The classic hello world program to get us started:
 
