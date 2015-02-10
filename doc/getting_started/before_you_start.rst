@@ -3,6 +3,7 @@
 Before you start
 ================
 
+Fortran is a compiled language so we will need a compiler.
 It will be useful to install GFortran and CMake.
 
 On Debian-like distributions::

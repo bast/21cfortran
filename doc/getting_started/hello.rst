@@ -16,3 +16,7 @@ You can compile it with (example GFortran)::
 Then run the code with::
 
   $ ./hello.x
+
+  hello world
+
+Exciting times. Now we can begin.
