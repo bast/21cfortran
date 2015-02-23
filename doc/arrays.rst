@@ -4,9 +4,9 @@ Working with arrays
 ===================
 
 In your code you will need arrays to hold data (floating point numbers,
-integers, characters, logicals) and you need to allocate space for those.  You
-can allocate this space statically or dynamically.  Below we will discuss
-example of both.
+integers, characters, logicals) and you need to allocate space for those. You
+can allocate this space statically or dynamically. Below we will discuss
+examples of both.
 
 
 Static arrays
@@ -60,6 +60,24 @@ Dynamic arrays
 --------------
 
 Write me ...
+
+
+Custom dynamic allocation schemes
+---------------------------------
+
+In the good old Fortran 77 days dynamic allocation was not possible but it was
+nevertheless needed. One way out was to statically or dynamically (using
+another language) allocate a big block of memory and to subdivide it and to
+"allocate" and "deallocate" manually during the calculation.  Such a custom
+dynamic allocation is present in a number of legacy codes.  One problem of this
+is that out of bounds bugs can be difficult to detect because they cannot be
+detected by the compiler or tools designed to detect such bugs. This is because
+for the compiler and the tools such out of bounds access bugs can appear as
+regular in-bounds reads and writes.  The other disadvantage is that code that
+uses custom dynamic allocation schemes becomes less modular (because the big
+chunk of memory is often carried around through many levels of routine calls)
+and less portable (because you cannot reuse a routine which depends on a custom
+solution that another code may not provide).
 
 
 Passing arrays to functions/subroutines
