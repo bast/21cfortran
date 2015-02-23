@@ -22,6 +22,19 @@ double precision floating point coordinates for up to 1000 atoms:
 
    real(8) :: coordinates(MAX_NUM_ATOMS, 3)
 
+Other examples:
+
+.. code-block:: fortran
+
+   ! a static array holding 200 floating points
+   real(8) :: array1(200)
+
+   ! a static 2-dimensional array holding 81 integers
+   integer :: array2(9, 9)
+
+   ! a static array holding 401 logicals indexed from 0 to 400
+   logical :: array3(0:400)
+
 There are at least two disadvantages of statically allocated arrays: First, if
 we need to resize them, we need to recompile the code which is inconvenient.
 The other disadvantage is that static arrays are always allocated, even if we
@@ -35,6 +48,12 @@ because you are too lazy to allocate and deallocate dynamically.  Very often
 you will forget to change them later and they remain "temporary" for years or
 decades until someday somebody writes out of arrays bounds and all bets are
 off.
+
+.. code-block:: fortran
+
+   ! you:    we will never need more than 10000 here
+   ! future: wrong, one day you will
+   integer :: myarray(10000)
 
 
 Dynamic arrays
